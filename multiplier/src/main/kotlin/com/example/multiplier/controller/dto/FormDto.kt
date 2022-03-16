@@ -1,4 +1,4 @@
-package com.example.multiplier.dto
+package com.example.multiplier.controller.dto
 
 import javax.validation.constraints.NotNull
 

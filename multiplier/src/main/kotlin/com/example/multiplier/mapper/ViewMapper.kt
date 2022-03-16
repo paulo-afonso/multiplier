@@ -1,6 +1,6 @@
 package com.example.multiplier.mapper
 
-import com.example.multiplier.dto.ViewDto
+import com.example.multiplier.controller.dto.ViewDto
 import com.example.multiplier.model.MultiplierModel
 import org.springframework.stereotype.Component
 

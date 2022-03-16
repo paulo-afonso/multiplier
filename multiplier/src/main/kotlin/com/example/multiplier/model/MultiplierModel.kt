@@ -1,9 +1,13 @@
 package com.example.multiplier.model
 
+import org.springframework.data.annotation.Id
+import org.springframework.data.mongodb.core.mapping.Document
 import java.time.LocalDateTime
 
+@Document
 data class MultiplierModel (
-    var id: Long? = null,
+    @Id
+    var id: String? = null,
     val firstNumber: Long,
     val timesNumber: Long,
     var resultNumber: Long? = null,
